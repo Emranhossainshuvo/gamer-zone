@@ -1,3 +1,6 @@
+body{
+    margin: 0px auto;
+}
 .nav {
     display: flex;
     justify-content: space-around;
@@ -39,9 +42,9 @@
     font-size: 1.2rem;
     font-weight: 500;
 }
-.gamer-manus li svg:hover{
+/* .gamer-manus li svg:hover{
     cursor: pointer;
-}
+} */
 .nav-manus{
     display: flex;
     justify-content: space-between;
@@ -52,4 +55,61 @@
     display: flex;
     align-items: center;
     gap: 24px;
+}
+/* BANNER SECTION STARTS FROM HERE */
+.banner-section{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    align-items: center;
+    background-image: url(../images/Group\ 14.png);
+}
+.banner-play-heading{
+     color: #0b0223;
+     font-family: 'Work Sans', sans-serif;
+     font-size: 3rem;
+     font-weight: 600;
+     margin-bottom: 0px;
+}
+.banner-goat{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 6rem;
+    font-weight: 800;
+    color: #C450D0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.banner-list li{
+    list-style: none;
+}
+.banner-list{
+    margin-top: 24px;
+    color: #534C64;
+    font-size: 1.25;
+    font-weight: 500;
+}
+.button-sign-in{
+    background-color: #FF42A5;
+    color: #ffffff;
+    margin-left: 40px;
+    font-family: 'Work Sans', sans-serif;;
+    padding: 21px 40px;
+    border-radius: 48px;
+    border: 0;
+    /* width: auto 156px;
+    height: auto 65px; */
+}
+
+.button-go{
+    margin-left: 24px;
+    background-color: #4EC5F7;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 21px 40px;
+    color: #ffffff;
+    border-radius: 48px;
+    border: 0;
+    /* width: auto 185px;
+    height: auto 65px; */
 }
