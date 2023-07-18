@@ -1,6 +1,7 @@
-body{
+body {
     margin: 0px auto;
 }
+
 .nav {
     display: flex;
     justify-content: space-around;
@@ -28,50 +29,57 @@ body{
     font-weight: 700;
     color: #0B0223;
 }
-.g-in-gamer{
+
+.g-in-gamer {
     color: #FF42A5;
 }
-.gamer-manus li{
+
+.gamer-manus li {
     list-style: none;
 }
 
-.gamer-manus li a{
+.gamer-manus li a {
     text-decoration: none;
     color: #3c354f;
     font-family: 'Work Sans', sans-serif;
     font-size: 1.2rem;
     font-weight: 500;
 }
+
 /* .gamer-manus li svg:hover{
     cursor: pointer;
 } */
-.nav-manus{
+.nav-manus {
     display: flex;
     justify-content: space-between;
     gap: 30px;
-    align-items: center;    
+    align-items: center;
 }
-.follow-us-manu{
+
+.follow-us-manu {
     display: flex;
     align-items: center;
     gap: 24px;
 }
+
 /* BANNER SECTION STARTS FROM HERE */
-.banner-section{
+.banner-section {
     display: flex;
     justify-content: space-evenly;
     margin-top: 30px;
     align-items: center;
     background-image: url(../images/Group\ 14.png);
 }
-.banner-play-heading{
-     color: #0b0223;
-     font-family: 'Work Sans', sans-serif;
-     font-size: 3rem;
-     font-weight: 600;
-     margin-bottom: 0px;
+
+.banner-play-heading {
+    color: #0b0223;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 0px;
 }
-.banner-goat{
+
+.banner-goat {
     font-family: 'Work Sans', sans-serif;
     font-size: 6rem;
     font-weight: 800;
@@ -79,10 +87,12 @@ body{
     margin-top: 0px;
     margin-bottom: 0px;
 }
-.banner-list li{
+
+.banner-list li {
     list-style: none;
 }
-.banner-list{
+
+.banner-list {
     margin-top: 24px;
     color: #534C64;
     font-size: 1.25;
@@ -90,11 +100,13 @@ body{
     /* margin-left: 0px; */
     padding-left: 10px;
 }
-.button-sign-in{
+
+.button-sign-in {
     background-color: #FF42A5;
     color: #ffffff;
     margin-left: 0px;
-    font-family: 'Work Sans', sans-serif;;
+    font-family: 'Work Sans', sans-serif;
+    ;
     padding: 21px 40px;
     border-radius: 48px;
     border: 0;
@@ -102,7 +114,7 @@ body{
     height: auto 65px; */
 }
 
-.button-go{
+.button-go {
     margin-left: 24px;
     background-color: #4EC5F7;
     font-family: 'Work Sans', sans-serif;
@@ -116,30 +128,91 @@ body{
     /* width: auto 185px;
     height: auto 65px; */
 }
-.hide{
+
+.hide {
     display: none;
 }
+
+.online-game-section-description {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.online-game-heading {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.funny-text {
+   
+      color: 
+      #CE4ECA
+      ; 
+}
+.online-game-text{
+    color: #534C64;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* responsive code starts from here */
-@media screen and (max-width: 576px){
-    nav{
+@media screen and (max-width: 576px) {
+    nav {
         flex-direction: column;
     }
+
     /* .nav{
         /* word-wrap: break-word; */
-        /* flex-wrap: wrap; */
-    /* } */ 
-    .nav-manus{
+    /* flex-wrap: wrap; */
+    /* } */
+    .nav-manus {
         flex-direction: column;
     }
-    .banner-section{
+
+    .banner-section {
         flex-direction: column;
     }
-    .banner-img{
+
+    .banner-img {
         width: 300px;
     }
-    .banner-description{
-        /* height: 80vh; */
-        /* width: 80vh; */
-        
-    }
+
 }
