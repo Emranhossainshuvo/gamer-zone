@@ -157,6 +157,20 @@ body {
     font-size: 1.2rem;
     font-weight: 400;
 }
+.online-game-img{
+    display: flex;
+    justify-content: center;
+    gap: 2.4%;
+}
+.online-game-img p{
+    color: #534c64;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.online-game-img img:hover{
+    filter: blur(3px);
+}
 
 
 
