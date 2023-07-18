@@ -87,11 +87,13 @@ body{
     color: #534C64;
     font-size: 1.25;
     font-weight: 500;
+    /* margin-left: 0px; */
+    padding-left: 10px;
 }
 .button-sign-in{
     background-color: #FF42A5;
     color: #ffffff;
-    margin-left: 40px;
+    margin-left: 0px;
     font-family: 'Work Sans', sans-serif;;
     padding: 21px 40px;
     border-radius: 48px;
@@ -107,9 +109,37 @@ body{
     font-size: 1.25rem;
     font-weight: 600;
     padding: 21px 40px;
+    /* padding-left: 0px; */
     color: #ffffff;
     border-radius: 48px;
     border: 0;
     /* width: auto 185px;
     height: auto 65px; */
+}
+.hide{
+    display: none;
+}
+/* responsive code starts from here */
+@media screen and (max-width: 576px){
+    nav{
+        flex-direction: column;
+    }
+    /* .nav{
+        /* word-wrap: break-word; */
+        /* flex-wrap: wrap; */
+    /* } */ 
+    .nav-manus{
+        flex-direction: column;
+    }
+    .banner-section{
+        flex-direction: column;
+    }
+    .banner-img{
+        width: 300px;
+    }
+    .banner-description{
+        /* height: 80vh; */
+        /* width: 80vh; */
+        
+    }
 }
