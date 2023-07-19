@@ -161,6 +161,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 2.4%;
+    margin-bottom: 12%;
     /* position: relative;
     display: inline-block; */
 }
@@ -172,9 +173,48 @@ body {
 }
 .online-game-img img:hover{
     filter: blur(3px);
+    border: 2px solid #FF42A5;
+    border-radius: 4px;
 }
+.play-instant-heading{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+    text-align: right;
+}
+.play-instantly{
+    color: #E34BBE;
+}
+.play-instant-text{
+    color: #534C64;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: right;
+}
+.play-instant{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.play-instant-img{
+    /* border: 2px solid black; */
+    /* display: flex; */
+    position: relative;
 
+}
+.instant-secondery-img{
+    /* position: relative; */
+    position: absolute;
+    bottom: 0;
+    left: 0;
 
+}
+.instant-primary-img{
+    margin-left: 100px;
+    margin-bottom: 60px;
+}
 
 
 
@@ -242,6 +282,28 @@ body {
     }
     .online-game-img img{
         margin: 5px auto;
+    }
+    .play-instant{
+        flex-direction: column;
+        /* width: 100%; */
+    }
+    .play-instant-img > img{
+        width: 90vw;
+    }
+    .play-instant-description{
+        align-items: center;
+    }
+    .instant-secondery-img{
+        /* width: 10px; */
+        position: relative;
+        top: -140px;
+        width: 50px;
+        /* border: 2px solid rebeccapurple; */
+
+    }
+    .instant-primary-img{
+        margin-left: 40px;
+        margin-bottom: 30px;
     }
 
 }
