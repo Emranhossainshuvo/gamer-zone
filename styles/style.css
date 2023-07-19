@@ -161,6 +161,8 @@ body {
     display: flex;
     justify-content: center;
     gap: 2.4%;
+    /* position: relative;
+    display: inline-block; */
 }
 .online-game-img p{
     color: #534c64;
@@ -227,6 +229,19 @@ body {
 
     .banner-img {
         width: 300px;
+    }
+    .online-game-img{
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px auto;
+        margin: 10px auto;
+    }
+    .online-game-img p{
+        /* width: 50%; */
+        text-align: center;
+    }
+    .online-game-img img{
+        margin: 5px auto;
     }
 
 }
