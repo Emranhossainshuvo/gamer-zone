@@ -237,10 +237,80 @@ body {
     margin-top: 27px;
     justify-content: space-evenly;
 }
+.single-catagory:hover{
+    border: 3px solid #FF42A5;
+    border-radius: 50px;
+    padding: 3px;
+    /* color: red; */
+    /* background-color: #160909;  */
+    /* color: #FF42A5; */
+}
+/* .single-catagory :hover{
+    color: #FF42A5;
+} */
+footer{
+    background-color: #0B0223;
+}
+.footer-amer{
+    color: #ffffff;
+}
+.footer-heading{
+    /* margin: 0px auto; */
+    display: flex;
+    justify-content: center;
+    margin-top: 129px;
+    padding-top: 120px;
 
+}
+.footer-option-section ul li{
+    color: #ffffff;
+    list-style: none;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    /* display: flex; */
+}
 
-
-
+.footer-option-section ul{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    /* margin-bottom: 56px; */
+    padding-bottom: 56px;
+}
+.footer-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.footer-manus-section ul{
+    
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    /* margin-bottom: 56px; */
+    padding-bottom: 56px;
+}
+.footer-manus-section ul li{
+    
+    color: rgba(255, 255, 255, 0.60);
+    list-style: none;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.footer-manus-section{
+    padding-top: 64px;
+}
+.copyright-text{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    padding-bottom: 130px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+}
 
 
 
@@ -328,6 +398,18 @@ body {
         margin-bottom: 30px;
     }
     .catagory-one, .catagory-two{
+        flex-direction: column;
+    }
+    .footer-option-section ul{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* justify-content: center; */
+    }
+    .footer-icons{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .footer-manu{
         flex-direction: column;
     }
     
