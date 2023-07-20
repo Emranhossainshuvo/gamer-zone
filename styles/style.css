@@ -283,6 +283,7 @@ footer{
     align-items: center;
     justify-content: center;
     gap: 40px;
+    cursor: pointer;
 }
 .footer-manus-section ul{
     
@@ -328,7 +329,7 @@ footer{
     }
 
     .banner-section {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .banner-img {
@@ -357,6 +358,12 @@ footer{
     .play-instant-description{
         align-items: center;
     }
+    .play-instant-text{
+        text-align: center;
+    }
+    .play-instant-heading{
+        text-align: center;
+    }
     .instant-secondery-img{
         /* width: 10px; */
         position: relative;
@@ -364,6 +371,10 @@ footer{
         width: 50px;
         /* border: 2px solid rebeccapurple; */
 
+    }
+    .single-catagory{
+        justify-content: center;
+        margin-bottom: 20px;
     }
     .instant-primary-img{
         margin-left: 40px;
@@ -409,6 +420,6 @@ footer{
     .footer-icons{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        
+
     }
 }
